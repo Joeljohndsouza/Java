@@ -1,0 +1,22 @@
+package Learncollection;
+import java.util.LinkedList;
+import java.util.function.Predicate;
+
+public class ListExample5 {
+	
+	public static void main(String[] args) {
+		
+		
+		LinkedList<String> names = new LinkedList<String> ();
+		
+		names.add("Jason");
+		names.add("Olianne");
+		names.add("Moses");
+		
+		names.removeIf(name->name.startsWith("P"));
+		System.out.println(names);
+		
+		
+	}
+
+}

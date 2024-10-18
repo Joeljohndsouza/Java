@@ -1,0 +1,19 @@
+class P14
+{
+	public static void main(String args[])
+	{
+		intn=12;
+		if(n%3==0)
+		{ System.out.println(n+" is multiple of 3");
+	if(n%==0)
+	{System.out.println(n+" is even");
+	}
+	else{System.out.println(n+" is odd");
+	}
+	System.out.println(n+" is odd");
+	}
+		}
+		else{
+			System.out.println(n+" is not multiple of 3");
+		}
+	}

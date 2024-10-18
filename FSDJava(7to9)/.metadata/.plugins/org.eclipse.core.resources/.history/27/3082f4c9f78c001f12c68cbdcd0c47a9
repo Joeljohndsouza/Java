@@ -1,0 +1,24 @@
+package Learncollection;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListExample7 {
+	public static void main(String[] args) {
+		
+		List<Product> product= new LinkedList<Product>();
+		
+		product.add(new Product (101,"Laptop",50000));
+		product.add(new Product (101,"Mobile",35000));
+		product.add(new Product (101,"Headphones",7000));
+		
+		Collections.sort(products);
+		
+		System.out.println(products);
+		
+		
+	}
+	
+
+}

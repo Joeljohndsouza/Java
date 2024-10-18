@@ -1,0 +1,28 @@
+package classandobjects;
+
+public class Product {
+	
+	int productId;
+	String productName;
+	int productPrice;
+	
+	//setProductDetails(101,"Laptop",50000)
+	
+	void setProductDetails(int productId,String productName,int productPrice)
+	
+	{
+		this.productId=productId;
+		this.productName=productName;
+		this.productPrice=productPrice;
+		System.out.println(this.productId+""+this.productName+""+this.productPrice);
+		
+	}
+	double discount()
+	{
+		return this.productPrice*0.8;
+		
+		
+		
+	}
+
+}

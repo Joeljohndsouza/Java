@@ -1,0 +1,18 @@
+package ExceptionHandling;
+
+public class Example8 {
+	
+	public static void throwException()
+	{
+		throw new NullPointerException("Priti");
+	}
+	public static void main(String[] args) {
+		
+		System.out.println("Hello");
+		throwException();
+		System.out.println("Bye");
+		
+	}
+
+}
+
