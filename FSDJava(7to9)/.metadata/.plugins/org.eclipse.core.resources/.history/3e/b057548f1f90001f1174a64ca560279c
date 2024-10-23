@@ -1,0 +1,19 @@
+package Learncollection;
+
+import java.util.TreeSet;
+
+public class SetExample5 {
+	public static void main(String[] args) { 
+		
+		
+		new TreeSet<Integer> treeSet= new TreeSet<Integer>();
+		treeSet.add(19);
+		treeSet.add(100);
+		treeSet.add(65);
+		treeSet.add(78);
+		treeSet.add(65);
+		treeSet.add(176);
+		
+	}
+
+}

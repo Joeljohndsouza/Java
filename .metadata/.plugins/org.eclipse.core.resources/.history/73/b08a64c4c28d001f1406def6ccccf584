@@ -1,0 +1,22 @@
+package revision;
+
+interface I2
+{
+	void apply();
+}
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		
+		I2 i=new I2() {
+			public void apply()
+			{
+				System.out.println("Apply method From L2");
+			}
+		};
+		
+		i.apply();
+		
+	}
+}
